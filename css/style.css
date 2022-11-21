@@ -33,6 +33,10 @@ p {
   box-shadow: 0 1px 5px #666;
 }
 
+.material-icons:hover {
+  color: #808080 !important;
+}
+
 h4 {
   font-family: 'Times New Roman', Times, serif;
   margin: 1rem 0 0.912rem 0;
