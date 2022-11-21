@@ -38,6 +38,15 @@ h4 {
   margin: 1rem 0 0.912rem 0;
 }
 
+#fullscreen-button {
+  text-decoration: none;
+  position: absolute;
+  vertical-align: middle;
+  right: 1em;
+  padding-top: 0em;
+  margin-top: -10px;
+}
+
 #explainer-text {
   padding-left: 2em;
   padding-right: 2em;
