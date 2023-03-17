@@ -21,6 +21,41 @@
       font-weight: 300;
       font-size: 16px;
     }
+    .column {
+      float: left;
+    }
+
+    .left {
+      width: 25%;
+    }
+
+    .right {
+      width: 75%;
+    }
+
+    .bio-row {
+      display: flex;
+      align-items: center;
+    }
+
+/* Create two columns next to each other */
+
+.bio-column1 {
+  flex: 30%;
+  padding: 15px;
+}
+.bio-column2 {
+  flex: 70%;
+  padding: 15px;
+}
+
+  h4 {
+    margin-top: 0em;
+  }
+
+  iframe {
+    padding-bottom: 4em;
+  }
   </style>
 
   <div id="index-banner" class="parallax-container">
@@ -162,6 +197,23 @@
 
   <div class="parallax-container valign-wrapper">
     <iframe src="https://declanrjb.github.io/congress-finance/" title="description" width=95% height=900px></iframe>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <div id="explainer-text">
+        <div class="bio-row">
+          <div class="bio-column1" style="background-color:#fff;">
+            <p><img src="declan_sanfran_bw.jpg" width="100%" height="auto" style="border-radius: 50%;"/></p>
+          </div>
+          <div class="bio-column2" style="background-color:#fff;">
+            <h4><b>Declan Bradley</b></h4>
+            <H6>Editor at the Reed College Quest | <a href="https://reedquest.org/author/declan-bradley-3/">Recent Stories</a></H6>
+            <p>As a new editor of the Quest, Declan is already at work on a new version of the Quest site and, when not in class or reading a book somewhere in the canyon, is likely to be found holed up in the SPO listening to music and muttering something incoherent about semicolons and divs. Like Anie, Declan looks forward to working with both new and returning Quest writers this semester, and plans to spend more than a few late nights in the Quest office (before staggering into his 9 AM history class on Thursday morning).</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!--  Scripts-->
